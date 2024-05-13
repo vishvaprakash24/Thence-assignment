@@ -1,0 +1,69 @@
+.hero {
+  margin: 20px 0px;
+}
+.hero .top {
+  text-align: center;
+  margin: 20px 0px;
+}
+.hero .top p {
+  color: #2da950;
+  font-size: 26px;
+}
+.hero .top h1 {
+  font-size: 36px;
+  width: 30vw;
+  margin: auto;
+}
+.hero .bottom {
+  display: flex;
+  gap: 20px;
+  width: 90vw;
+  justify-content: center;
+  margin: 50px auto;
+  align-items: center;
+}
+.hero .bottom .left img {
+  height: 600px;
+}
+.hero .bottom .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+}
+.hero .bottom .right h3 {
+  font-size: 22px;
+  font-weight: 500;
+  width: 80%;
+}
+.hero .bottom .right .dots {
+  display: flex;
+  gap: 12px;
+}
+.hero .bottom .right .dots .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.hero .bottom .right .dots .dark {
+  background: #2da950;
+}
+.hero .bottom .right .dots .light {
+  background: #e4e3e3;
+}
+.hero .bottom .right button {
+  padding: 15px 25px;
+  border: 1px solid #eaeaea;
+  border-radius: 100px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.hero .bottom .right button span {
+  margin-top: 5px;
+}

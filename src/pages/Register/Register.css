@@ -1,0 +1,96 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.register > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+.register > div img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.register > div p{
+    color: #2DA950;
+    font-size: 22px;
+}
+.register > div h1{
+    font-size: 32px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register > div form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.register > div form input{
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: rgba(185, 184, 184, 0.2);
+    outline: none;
+    width: 300px;
+    border: none;
+}
+
+.register > div form button{
+    padding: 15px 25px;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.success{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.success > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.success > div img{
+    width: 42px;
+}
+.success > div .special-font{
+    color: #2DA950;
+    font-size: 22px;
+}
+.success > div h1{
+    font-weight: 500;
+    font-size: 32px;
+}
+.success > div .desc{
+    color: #727272;
+    width: 48%;
+    text-align: center;
+}
+.success > .foot{
+    color: 727272;
+    font-size: 18px;
+    margin-top: 150px;
+}
+.success > .foot span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.register > div form button.disabled{
+    background: rgb(83, 83, 83);
+}

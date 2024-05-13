@@ -1,0 +1,40 @@
+.navbar {
+    border-radius: 65px;
+    margin: 5px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    height: 36px;
+    margin-left: 10px;
+}
+
+.navbar .nav-buttons {
+    display: flex;
+    gap: 15.67px;
+}
+
+.navbar .nav-buttons .white-btn {
+    padding: 15px 25px;
+    border: 1px solid #eaeaea;
+    border-radius: 100px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.navbar .nav-buttons .white-btn>a {
+    text-decoration: none;
+}
+
+.navbar .nav-buttons .black-btn {
+    padding: 15px 25px;
+    border: 1px solid #eaeaea;
+    border-radius: 100px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.faq-section {
+  position: relative;
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  background: #e8eee7;
+  padding: 20px;
+  border-radius: 25px;
+}
+.faq-section > img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 22%;
+}
+
+.faq-section .left {
+  flex: 0.5;
+  padding: 20px 30px;
+}
+
+.faq-section .left p {
+  color: #9e9d9d;
+  font-size: 26px;
+}
+.faq-section .left h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.faq-section .right {
+  flex: 0.5;
+  padding: 40px 20px;
+}
+.faq-section .right .faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.faq-section .right .faq-list .faq {
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 5px;
+}
+.faq-section .right .faq-list .faq .ques {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+.faq-section .right .faq-list .faq .ques h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.faq-section .right .faq-list .faq .ans {
+  padding: 10px;
+  background-color: transparent;
+  display: none;
+  color: #617275;
+  font-size: 14px;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+/* Show class to control the visibility of the answer */
+.faq-section .right .faq-list .faq .ans.show {
+  display: block;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
